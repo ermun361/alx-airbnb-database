@@ -52,3 +52,12 @@ This task focuses on improving query performance by creating indexes.
 This task addresses performance on large datasets by implementing table partitioning.
 - **`5-partitioning.sql`**: Contains the SQL commands to modify the `bookings` table's primary key and apply `RANGE` partitioning by date.
 - **`5-partition_performance.md`**: A report explaining how partition pruning dramatically improves date-range query performance.
+
+## Task 6: Monitor and Refine Database Performance
+
+This task demonstrates a complete performance tuning cycle.
+- **`6-performance_monitoring.md`**: A detailed report that uses a complex query scenario to:
+    1.  Monitor performance using `EXPLAIN ANALYZE`.
+    2.  Identify both indexing and schema-level bottlenecks.
+    3.  Propose and implement changes (composite index, schema normalization).
+    4.  Report the significant performance improvements with before-and-after analysis.

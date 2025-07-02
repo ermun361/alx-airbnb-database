@@ -24,3 +24,10 @@ This script provides examples of different types of SQL `JOIN` clauses to retrie
     -   Users who have **never** made a booking.
     -   Bookings that may not be linked to a user (useful for data integrity checks).
 -   **Note:** The standard `FULL OUTER JOIN` syntax, which works in databases like PostgreSQL, is also included as a commented-out example for reference.
+
+## Task 1: Practice Subqueries (`1-subqueries.sql`)
+
+This script provides examples of both non-correlated and correlated subqueries.
+
+-   **Non-Correlated Subquery:** Finds all properties with an average rating greater than 4.0. The inner query runs once.
+-   **Correlated Subquery:** Finds all users who have made more than 3 bookings. The inner query runs once for each user, making it dependent on the outer query.

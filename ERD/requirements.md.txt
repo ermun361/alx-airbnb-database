@@ -1,9 +1,0 @@
-# Entity-Relationship Diagram
-
-This ERD illustrates the relational database structure for the Airbnb clone project. It contains six key entities — Users, Properties, Bookings, Payments, Reviews, and Messages — along with their attributes and relationships.
-
-The diagram follows relational database best practices and emphasizes data integrity using foreign keys and indexed fields.
-
-![ER Diagram](./airbnb_er_diagram.png)
-
-

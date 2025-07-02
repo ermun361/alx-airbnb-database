@@ -38,3 +38,17 @@ This script demonstrates data analysis using aggregation and window functions.
 
 -   **Aggregation (`COUNT` / `GROUP BY`):** Calculates the total number of bookings for each user, providing a summary of user activity.
 -   **Window Functions (`RANK` / `ROW_NUMBER`):** Ranks properties based on their total booking count. This is useful for identifying the most popular properties. `RANK()` is used to handle ties gracefully.
+
+## Task 3: Implement Indexes for Optimization
+
+This task focuses on improving query performance by creating indexes.
+- **`3-database_index.sql`**: Contains `CREATE INDEX` commands and `EXPLAIN ANALYZE` queries to measure performance.
+- **`3-index_performance.md`**: A report explaining the performance impact of indexing.
+
+---
+
+## Task 5: Partitioning Large Tables
+
+This task addresses performance on large datasets by implementing table partitioning.
+- **`5-partitioning.sql`**: Contains the SQL commands to modify the `bookings` table's primary key and apply `RANGE` partitioning by date.
+- **`5-partition_performance.md`**: A report explaining how partition pruning dramatically improves date-range query performance.

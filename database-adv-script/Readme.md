@@ -31,3 +31,10 @@ This script provides examples of both non-correlated and correlated subqueries.
 
 -   **Non-Correlated Subquery:** Finds all properties with an average rating greater than 4.0. The inner query runs once.
 -   **Correlated Subquery:** Finds all users who have made more than 3 bookings. The inner query runs once for each user, making it dependent on the outer query.
+
+## Task 2: Aggregations and Window Functions (`2-aggregations_and_window_functions.sql`)
+
+This script demonstrates data analysis using aggregation and window functions.
+
+-   **Aggregation (`COUNT` / `GROUP BY`):** Calculates the total number of bookings for each user, providing a summary of user activity.
+-   **Window Functions (`RANK` / `ROW_NUMBER`):** Ranks properties based on their total booking count. This is useful for identifying the most popular properties. `RANK()` is used to handle ties gracefully.
